@@ -10,4 +10,3 @@ if a % 4 == 0:
         print("Y")
 else:
     print("N")
-*  @yhf题目
