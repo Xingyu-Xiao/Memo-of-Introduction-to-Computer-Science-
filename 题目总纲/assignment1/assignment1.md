@@ -86,7 +86,7 @@ else:
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20172653.png)
+![](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20172653.png)
 
 
 
@@ -120,7 +120,7 @@ else:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173021.png)
+![](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173021.png)
 
 
 
@@ -163,7 +163,7 @@ if x % z != 0:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173157.png)
+![](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173157.png)
 
 
 
@@ -207,7 +207,7 @@ else:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![alt](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924173341733.png)
+![alt](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173326.png)
 
 
 
@@ -254,7 +254,7 @@ print(i)
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![image-20240924173506117](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924173506117.png)
+![image-20240924173506117](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173457.png)
 
 
 
