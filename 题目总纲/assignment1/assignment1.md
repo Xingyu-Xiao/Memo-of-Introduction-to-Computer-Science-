@@ -53,7 +53,7 @@ else:
 
 代码运行截图 ====
 
-![屏幕截图 2024-09-21 103225](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-21%20103225.png)
+![屏幕截图 2024-09-21 103225](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-21%20103213.png)
 
 
 
