@@ -53,7 +53,7 @@ else:
 
 代码运行截图 ====
 
-![屏幕截图 2024-09-21 103225](C:\Users\XXY13\Pictures\Screenshots\屏幕截图 2024-09-21 103225.png)
+![屏幕截图 2024-09-21 103225](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-21%20103225.png)
 
 
 
@@ -86,7 +86,7 @@ else:
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-![屏幕截图 2024-09-24 172653](C:\Users\XXY13\Pictures\Screenshots\屏幕截图 2024-09-24 172653.png)
+![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20172653.png)
 
 
 
@@ -120,7 +120,7 @@ else:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![屏幕截图 2024-09-24 173021](C:\Users\XXY13\Pictures\Screenshots\屏幕截图 2024-09-24 173021.png)
+![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173021.png)
 
 
 
@@ -163,7 +163,7 @@ if x % z != 0:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![屏幕截图 2024-09-24 173157](C:\Users\XXY13\Pictures\Screenshots\屏幕截图 2024-09-24 173157.png)
+![](https://raw.githubsercontent.com/Xingyu-Xiao/My-Picbed/main/undefined%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20173157.png)
 
 
 
