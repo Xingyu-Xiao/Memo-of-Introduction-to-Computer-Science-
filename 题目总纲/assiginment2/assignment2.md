@@ -55,7 +55,7 @@ for x in a:
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-![image-20240924174809878](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924174809878.png)
+![image-20240924174809878](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20174757.png)
 
 
 
@@ -99,7 +99,7 @@ for x in q:
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-![image-20240924174935262](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924174935262.png)
+![image-20240924174935262](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20174929.png)
 
 
 
@@ -144,7 +144,7 @@ print(f(b, a))
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![image-20240924175024791](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924175024791.png)
+![image-20240924175024791](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20175019.png)
 
 
 
@@ -176,7 +176,7 @@ print(sum(qq))
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![image-20240924175145603](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924175145603.png)
+![image-20240924175145603](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20175139.png)
 
 
 
@@ -213,7 +213,7 @@ else:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![image-20240924175301295](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924175301295.png)
+![image-20240924175301295](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20175241.png)
 
 
 
@@ -252,7 +252,7 @@ for s in ss:
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-![image-20240924212407905](C:\Users\XXY13\AppData\Roaming\Typora\typora-user-images\image-20240924212407905.png)
+![image-20240924212407905](https://github.com/Xingyu-Xiao/My-Picbed/blob/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-09-24%20212359.png)
 
 
 
