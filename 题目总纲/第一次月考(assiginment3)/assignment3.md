@@ -26,13 +26,27 @@ http://cs101.openjudge.cn/practice/28674/
 
 
 
-思路：
+思路：首先各建立一个大小写的字母列表，对输入的字母，判断其大小写及字母序列，原序列加上k对26取模即为新序列，从列表读取并输出即可。
 
 
 
 代码
 
 ```python
+n = int(input())
+s = list(input())
+ss = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+      'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+SS = [x.upper() for x in ss]
+for index, x in enumerate(s):
+    if x in ss:
+        k = ss.index(x)
+        kk = (k-n) % 26
+        s[index] = ss[kk]
+    else:
+        i = SS.index(x)
+        s[index] = SS[(i-n) % 26]
+print(''.join(map(str, s)))
 
 
 ```
@@ -41,7 +55,7 @@ http://cs101.openjudge.cn/practice/28674/
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-
+![](https://github.com/Xingyu-Xiao/My-Picbed/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-10%20190759.png)
 
 
 
@@ -51,14 +65,23 @@ http://cs101.openjudge.cn/practice/28691/
 
 
 
-思路：
+思路：先建立一个数字列表，对于输入，判断其是否为数字（即在列表中），如果是，依次存进一空列表中，输出完成后，再换成字符串并转成整数存入另一列表，对列表求和即可。
 
 
 
 代码
 
 ```python
-
+s = list(input().split())
+d = {'1', '2', '3', '4', '5', '6', '7', '8', '9', '0'}
+a = []
+for x in s:
+    b = []
+    for y in x:
+        if y in d:
+            b.append(y)
+    a.append(int(''.join(b)))
+print(sum(a))
 
 ```
 
@@ -66,7 +89,7 @@ http://cs101.openjudge.cn/practice/28691/
 
 代码运行截图 ==（至少包含有"Accepted"）==
 
-
+![](https://github.com/Xingyu-Xiao/My-Picbed/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-10%20204248.png)
 
 
 
@@ -83,7 +106,20 @@ http://cs101.openjudge.cn/practice/28664/
 代码
 
 ```python
-
+s = [1, 0, 10, 9, 8, 7, 6, 5, 4, 3, 2]
+n = int(input())
+a = [list(input()) for _ in range(n)]
+for x in a:
+    if x[17] == 'X':
+        x[17] = 10
+    x = list(map(int, x))
+    k = (7*x[0] + 9*x[1] + 10*x[2] +5*x[3] +8*x[4]+4*x[5] +2*x[6]+x[7]+6*x[8]+3*x[9]+7*x[10]+9*x[11]
+         +10*x[12]+5*x[13]+8*x[14]+4*x[15]+2*x[16])
+    k = k % 11
+    if s[k] == x[17]:
+        print('YES')
+    else:
+        print('NO')
 
 ```
 
@@ -91,7 +127,7 @@ http://cs101.openjudge.cn/practice/28664/
 
 代码运行截图 ==（AC代码截图，至少包含有"Accepted"）==
 
-
+![](https://github.com/Xingyu-Xiao/My-Picbed/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-10%20204455.png)
 
 
 
