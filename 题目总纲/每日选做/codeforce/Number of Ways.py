@@ -2,8 +2,7 @@ import bisect
 n = int(input())
 s = list(map(int, input().split()))
 sum_s = sum(s)
-a = [0]*n
-a[0] = s[0]
+a = [s[0]] + [0]*(n-1)
 for i in range(1, n):
     a[i] = a[i-1] + s[i]
 if sum_s % 3 != 0:
