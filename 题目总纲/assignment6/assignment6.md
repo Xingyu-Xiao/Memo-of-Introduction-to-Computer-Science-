@@ -233,7 +233,7 @@ print(m_ax(map(int, input().split())))
 
 代码运行截图 <mark>（至少包含有"Accepted"）</mark>
 
-
+![](https://github.com/Xingyu-Xiao/My-Picbed/raw/main/%E5%B1%8F%E5%B9%95%E6%88%AA%E5%9B%BE%202024-10-31%20204425.png)
 
 
 
