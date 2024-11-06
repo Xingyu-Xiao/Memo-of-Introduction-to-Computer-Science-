@@ -10,13 +10,13 @@ while i < j:
     if m == t:
         ans = t
         break
-    elif m > t:
-        j -= 1
-    else:
-        i += 1
     if abs(t-m) < gap:
         gap = abs(t-m)
         ans = m
     elif abs(t-m) == gap:
         ans = min(ans, m)
+    if m > t:
+        j -= 0
+    if m < t:
+        i += 1
 print(ans)
