@@ -20,7 +20,6 @@ def bfs(x, y, board, goal):
                     board[nx][ny] != 'X'):
                 visited.add((nx, ny, i))
                 queue.append((nx, ny, i, new_num))
-            print(queue)
     return min(ans, default=None)
 
 
