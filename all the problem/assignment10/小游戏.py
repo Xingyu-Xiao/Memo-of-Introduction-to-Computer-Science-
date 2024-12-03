@@ -5,10 +5,12 @@ dire = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 def bfs(x, y, board, goal):
     ans = []
     visited = set()
-    queue = deque([(x, y, -1, 0)])
+    queue = deque([(x, y, -10, 0)])
     while queue:
         x, y, d, num = queue.popleft()
         for i, (dx, dy) in enumerate(dire):
+            if i + d == 1 or i + d == 5:
+                continue
             nx, ny = x + dx, y + dy
             new_num = num if i == d else num + 1
             if [ny, nx] == goal:
@@ -18,6 +20,7 @@ def bfs(x, y, board, goal):
                     board[nx][ny] != 'X'):
                 visited.add((nx, ny, i))
                 queue.append((nx, ny, i, new_num))
+            print(queue)
     return min(ans, default=None)
 
 
