@@ -3,7 +3,7 @@ dire = [(1, 0), (-1, 0), (0, 1), (0, -1)]
 
 
 def bfs(x, y, board, goal):
-    visited = set()
+    visited = {}
     min_x = float('inf')
     queue = deque([(x, y, -1, 0)])
     while queue:
@@ -14,9 +14,9 @@ def bfs(x, y, board, goal):
             if [ny, nx] == goal:
                 min_x = min(min_x, new_num)
                 continue
-            if (0 <= nx < len(board) and 0 <= ny < len(board[0]) and (nx, ny, i) not in visited and
-                    board[nx][ny] != 'X' and new_num < min_x):
-                visited.add((nx, ny, i))
+            if (0 <= nx < len(board) and 0 <= ny < len(board[0]) and
+                    board[nx][ny] != 'X' and new_num < visited.get((nx, ny, i), float('inf'))):
+                visited[(nx, ny, i)] = new_num
                 queue.append((nx, ny, i, new_num))
     return min_x
 
