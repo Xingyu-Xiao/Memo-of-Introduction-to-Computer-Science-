@@ -21,7 +21,6 @@ while left < right:
     mid = (left + right) // 2
     if check(mid):
         left = mid + 1
-        ans = mid
     else:
         right = mid
-print(ans)
+print(right-1)
